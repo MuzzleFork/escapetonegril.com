@@ -2,7 +2,7 @@
 
     'use strict'; 
 
-    new WOW().init();
+    // new WOW().init();
     
         /*-----------------------------------------------------------------------------------*/
         /*  Animsition
@@ -62,6 +62,11 @@
         /*  Slider Home Fullscreen
         /*-----------------------------------------------------------------------------------*/
         $('.fullscreen .flexslider').flexslider({
+            animation: "fade",
+            directionNav: "false",
+            controlNav: "thumbnails"
+        });
+        $('.gallery .flexslider').flexslider({
             animation: "fade",
             directionNav: "false",
             controlNav: "thumbnails"

@@ -80,7 +80,7 @@ figure {
 }
 img {
     max-width:100%;
-    height:auto;
+    /* height:auto; */
     display: block;
 }
 input[type="email"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
@@ -429,6 +429,22 @@ ul.menus li.has-child ul.child {
 }
 .menus-mobile li a:hover, .menus-mobile ul.child li a:hover {
     opacity: 0.7;
+}
+
+/* Gallery Slider */
+#slider.gallery .flex-control-thumbs {
+    /* width: 1140px; */
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: -110px;
+    padding: 5px;
+    z-index: 500;
+    position: relative;
+    bottom: 0;
+}
+#slider.gallery .flex-control-thumbs li {
+    width: 10%;
+    padding: 5px;
 }
 
 /*-----------------------------------------------------------------------------------*/
